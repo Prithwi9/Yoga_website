@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PranaPath</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header id="navbar">
+    <div class="container">
+      <div class="site-name">PranaPath</div>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="classes.html">Classes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html"> <!-- Anchor tag linking to contact page -->
+        <button class="register-btn">Register</button>
+        <button id="logout-btn" style="display: none; text-align: center;" onclick="logout()">Logout</button>
+    </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+<section id="hero-section">
+  <div class="hero-content">
+    <div class="hero-image">
+      <img src="/yoga_website/IMAGE/YOGA1.webp" width="700px" height="600px">
+    </div>
+    <div class="hero-text">
+      <p>"Transform your mind, body, and spirit with the power of yoga."</p>
+      <a href="contact.html"> <!-- Anchor tag linking to contact page -->
+        <button class="register-btn">Register</button>
+    </a>
+    </div>
+  </div>
+</section>
+
+<!-- Benefits of Yoga Section -->
+<section id="benefits-section">
+  <h2>Benefits of Yoga Poses</h2>
+  <div class="carousel-container">
+    <!-- put image one by one and give some discription on it. -->
+    <div class="carousel-item" style="background-image: url('/yoga_website/IMAGE/image5.jpg');">
+      <div class="carousel-hover-content">
+        <h3>Pose 1</h3>
+        <p>Benefit: Improves flexibility.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('/yoga_website/IMAGE/image6.webp');">
+      <div class="carousel-hover-content">
+        <h3>Pose 2</h3>
+        <p>Benefit: Enhances strength.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('/yoga_website/IMAGE/image2.jpg');">
+      <div class="carousel-hover-content">
+        <h3>Pose 3</h3>
+        <p>Benefit: Boosts energy.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('/yoga_website/IMAGE/image7.jpg');">
+      <div class="carousel-hover-content">
+        <h3>Pose 4</h3>
+        <p>Benefit: Reduces stress.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('/yoga_website/IMAGE/image8.jpg');">
+      <div class="carousel-hover-content">
+        <h3>Pose 5</h3>
+        <p>Benefit: Enhances mental clarity.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('/yoga_website/IMAGE/image10.jpg');">
+      <div class="carousel-hover-content">
+        <h3>Pose 6</h3>
+        <p>Benefit: Promotes heart health.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('/yoga_website/IMAGE/image4.jpg');">
+      <div class="carousel-hover-content">
+        <h3>Pose 7</h3>
+        <p>Benefit: Improves posture.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('/yoga_website/IMAGE/image3.jpg');">
+      <div class="carousel-hover-content">
+        <h3>Pose 8</h3>
+        <p>Benefit: Boosts immunity.</p>
+      </div>
+    </div>
+    <!-- Add more carousel items as needed -->
+  </div>
+</section>
+
+<!-- Motivational Quote Section -->
+<section id="quote-section">
+  <p>"Yoga is the journey of the self, through the self, to the self."</p>
+</section>
+
+<!-- About Section -->
+<section id="about-section">
+  <h2><a href="#about-page">About Us</a></h2>
+  <div class="about-content">
+    <div class="about-photo">
+      <img src="/yoga_website/IMAGE/image9.jpg" alt="Person associated with PranaPath" width="600px" height="500px">
+    </div>
+    <div class="about-text">
+      <h3>Yog Guru</h3>
+      <p>
+        Our mission is to create a community where individuals can find peace, strength, and well-being through the practice of yoga. We believe in the transformative power of yoga to bring balance and healing, and our goal is to guide each person on their unique path towards personal growth and physical and mental wellness. Whether you're a beginner or an experienced yogi, we are here to support your journey with compassion, knowledge, and a dedication to health and happiness.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- classes section -->
+<section id="classes-section">
+  <h2 class="classes-header"><a href="classes.html">Yoga Classes</a></h2>
+  <div class="classes-carousel">
+    <div class="classes-carousel-container">
+        <div class="classes-carousel-item active" style="background-image: url('/IMAGE/YOGA1.webp');">
+            <h3>Upcoming Sessions</h3>
+            <p><strong>Class Name:</strong> Sunrise Yoga</p>
+            <p><strong>Benefits:</strong> Boost energy and improve focus.</p>
+            <p><strong>Instructor:</strong> Alex Green</p>
+            <p><strong>Timing:</strong> 6:30 AM - 7:30 AM</p>
+        </div>
+        <div class="classes-carousel-item" style="color: rgb(0, 0, 0);">
+          <h3 style="color: black;">Current Sessions</h3>
+          <p><strong>Class Name:</strong> Restorative Yoga</p>
+          <p><strong>Benefits:</strong> Deep relaxation and recovery.</p>
+          <p><strong>Instructor:</strong> Sarah Blue</p>
+          <p><strong>Timing:</strong> 4:00 PM - 5:00 PM</p>
+      </div>
+      <div class="classes-carousel-item"style="background-image: url('/IMAGE/YOGA1.webp');">
+          <h3>Previous Sessions</h3>
+          <p><strong>Class Name:</strong> Hatha Yoga Basics</p>
+          <p><strong>Benefits:</strong> Learn foundational poses and techniques.</p>
+          <p><strong>Instructor:</strong> Michael White</p>
+          <p><strong>Timing:</strong> 9:00 AM - 10:30 AM</p>
+      </div>
+    </div>
+</div>
+
+</section>
+
+
+<!-- Contact Section -->
+<div id="contact-section" class="contact-container">
+  <h2 class="contact-header">Contact Us</h2>
+  <div class="contact-box">
+    <form id="registrations-form" class="registrations-form">
+      <label for="home-name">Name:</label>
+      <input type="text" id="home-name" placeholder="Enter your name" required>
+
+      <label for="home-email">Email:</label>
+      <input type="email" id="home-email" placeholder="Enter your email" required>
+
+      <label for="home-phone">Phone No:</label>
+      <input type="tel" id="home-phone" placeholder="Enter your phone number" required>
+
+      <button type="submit" class="registers-btn">Register</button>
+    </form>
+  </div>
+</div>
+
+
+<!-- Footer Section -->
+<footer>
+  <div class="footer-content">
+      <div class="footer-quote">
+          "Yoga is not about touching your toes, it’s about what you learn on the way down."
+      </div>
+      <div class="social-media">
+          <a href="https://facebook.com"target="_main">Facebook</a>
+          <a href="https://instagram.com"target="_main">Instagram</a>
+          <a href="https://twitter.com"target="_main">Twitter</a>
+      </div>
+  </div>
+  <p class="copyright">&copy; 2024 PranaPath. All rights reserved.</p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

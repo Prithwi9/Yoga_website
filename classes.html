@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Classes</title>
+</head>
+<body>
+    <!-- Navbar -->
+  <header id="navbar">
+    <div class="container">
+      <div class="site-name">PranaPath</div>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="classes.html">Classes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html"> <!-- Anchor tag linking to contact page -->
+        <button class="register-btn">Register</button>
+        <button id="logout-btn" style="display: none;" onclick="logout()">Logout</button>
+    </a>
+    </div>
+  </header>
+
+    <!-- Classes Section -->
+    <section id="yoga-classes-section">
+        <h2 class="yoga-classes-header">Yoga Classes</h2>
+
+        <!-- Upcoming Classes Section -->
+        <h3 class="upcoming-classes-header">Upcoming Classes</h3>
+        <div class="upcoming-classes-carousel" id="upcoming-classes-carousel">
+            <div class="upcoming-classes-carousel-container">
+                <div class="upcoming-class-item">
+                    <h4>Yoga for Beginners</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Improves flexibility, builds strength.</p>
+                    <p>Instructor: John Doe</p>
+                    <p>Time: 10 AM - 11 AM</p>
+                </div>
+                <div class="upcoming-class-item">
+                    <h4>Advanced Hatha Yoga</h4>
+                    <p>Duration: 1.5 hours</p>
+                    <p>Benefits: Enhances concentration and balance.</p>
+                    <p>Instructor: Jane Smith</p>
+                    <p>Time: 5 PM - 6:30 PM</p>
+                </div>
+                <div class="upcoming-class-item">
+                    <h4>Vinyasa Flow</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Increases cardiovascular endurance.</p>
+                    <p>Instructor: Sarah Johnson</p>
+                    <p>Time: 7 AM - 8 AM</p>
+                </div>
+                <div class="upcoming-class-item">
+                    <h4>Yoga for Beginners</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Improves flexibility, builds strength.</p>
+                    <p>Instructor: John Doe</p>
+                    <p>Time: 10 AM - 11 AM</p>
+                </div>
+                <div class="upcoming-class-item">
+                    <h4>Advanced Hatha Yoga</h4>
+                    <p>Duration: 1.5 hours</p>
+                    <p>Benefits: Enhances concentration and balance.</p>
+                    <p>Instructor: Jane Smith</p>
+                    <p>Time: 5 PM - 6:30 PM</p>
+                </div>
+                <div class="upcoming-class-item">
+                    <h4>Vinyasa Flow</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Increases cardiovascular endurance.</p>
+                    <p>Instructor: Sarah Johnson</p>
+                    <p>Time: 7 AM - 8 AM</p>
+                </div>
+                <div class="upcoming-class-item">
+                    <h4>Yoga for Beginners</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Improves flexibility, builds strength.</p>
+                    <p>Instructor: John Doe</p>
+                    <p>Time: 10 AM - 11 AM</p>
+                </div>
+                <div class="upcoming-class-item">
+                    <h4>Advanced Hatha Yoga</h4>
+                    <p>Duration: 1.5 hours</p>
+                    <p>Benefits: Enhances concentration and balance.</p>
+                    <p>Instructor: Jane Smith</p>
+                    <p>Time: 5 PM - 6:30 PM</p>
+                </div>
+                <div class="upcoming-class-item">
+                    <h4>Vinyasa Flow</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Increases cardiovascular endurance.</p>
+                    <p>Instructor: Sarah Johnson</p>
+                    <p>Time: 7 AM - 8 AM</p>
+                </div>
+                <!-- Add more upcoming classes here -->
+            </div>
+        </div>
+
+        <!-- Ongoing Classes Section -->
+        <h3 class="ongoing-classes-header">Ongoing Classes</h3>
+        <div class="ongoing-classes-carousel" id="ongoing-classes-carousel">
+            <div class="ongoing-classes-carousel-container">
+                <div class="ongoing-class-item">
+                    <h4>Power Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Builds muscle and boosts metabolism.</p>
+                    <p>Instructor: Alex Brown</p>
+                    <p>Time: 6 PM - 7 PM</p>
+                </div>
+                <div class="ongoing-class-item">
+                    <h4>Yin Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Increases circulation and flexibility.</p>
+                    <p>Instructor: Emily Davis</p>
+                    <p>Time: 8 AM - 9 AM</p>
+                </div>
+                <div class="ongoing-class-item">
+                    <h4>Power Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Builds muscle and boosts metabolism.</p>
+                    <p>Instructor: Alex Brown</p>
+                    <p>Time: 6 PM - 7 PM</p>
+                </div>
+                <div class="ongoing-class-item">
+                    <h4>Yin Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Increases circulation and flexibility.</p>
+                    <p>Instructor: Emily Davis</p>
+                    <p>Time: 8 AM - 9 AM</p>
+                </div>
+                <div class="ongoing-class-item">
+                    <h4>Power Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Builds muscle and boosts metabolism.</p>
+                    <p>Instructor: Alex Brown</p>
+                    <p>Time: 6 PM - 7 PM</p>
+                </div>
+                <div class="ongoing-class-item">
+                    <h4>Yin Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Increases circulation and flexibility.</p>
+                    <p>Instructor: Emily Davis</p>
+                    <p>Time: 8 AM - 9 AM</p>
+                </div>
+                <div class="ongoing-class-item">
+                    <h4>Power Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Builds muscle and boosts metabolism.</p>
+                    <p>Instructor: Alex Brown</p>
+                    <p>Time: 6 PM - 7 PM</p>
+                </div>
+                <div class="ongoing-class-item">
+                    <h4>Yin Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Increases circulation and flexibility.</p>
+                    <p>Instructor: Emily Davis</p>
+                    <p>Time: 8 AM - 9 AM</p>
+                </div>
+                <!-- Add more ongoing classes here -->
+            </div>
+        </div>
+
+        <!-- Past Classes Section -->
+        <h3 class="past-classes-header">Past Classes</h3>
+        <div class="past-classes-carousel" id="past-classes-carousel">
+            <div class="past-classes-carousel-container">
+                <div class="past-class-item">
+                    <h4>Restorative Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Relieves stress and tension.</p>
+                    <p>Instructor: Michael Green</p>
+                    <p>Time: 9 AM - 10 AM</p>
+                </div>
+                <div class="past-class-item">
+                    <h4>Yoga Nidra</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Promotes deep relaxation and sleep.</p>
+                    <p>Instructor: Sophia White</p>
+                    <p>Time: 3 PM - 4 PM</p>
+                </div>
+                <div class="past-class-item">
+                    <h4>Restorative Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Relieves stress and tension.</p>
+                    <p>Instructor: Michael Green</p>
+                    <p>Time: 9 AM - 10 AM</p>
+                </div>
+                <div class="past-class-item">
+                    <h4>Yoga Nidra</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Promotes deep relaxation and sleep.</p>
+                    <p>Instructor: Sophia White</p>
+                    <p>Time: 3 PM - 4 PM</p>
+                </div>
+                <div class="past-class-item">
+                    <h4>Restorative Yoga</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Relieves stress and tension.</p>
+                    <p>Instructor: Michael Green</p>
+                    <p>Time: 9 AM - 10 AM</p>
+                </div>
+                <div class="past-class-item">
+                    <h4>Yoga Nidra</h4>
+                    <p>Duration: 1 hour</p>
+                    <p>Benefits: Promotes deep relaxation and sleep.</p>
+                    <p>Instructor: Sophia White</p>
+                    <p>Time: 3 PM - 4 PM</p>
+                </div>
+            
+                <!-- Add more past classes here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-quote">
+            "Yoga is not about touching your toes, it’s about what you learn on the way down."
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com"target="_main">Facebook</a>
+            <a href="https://instagram.com"target="_main">Instagram</a>
+            <a href="https://twitter.com"target="_main">Twitter</a>
+        </div>
+    </div>
+    <p class="copyright">&copy; 2024 PranaPath. All rights reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
